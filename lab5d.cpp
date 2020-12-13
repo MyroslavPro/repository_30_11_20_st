@@ -7,13 +7,13 @@ using namespace std;
 //beginning
 int main()
 {
-    Home a(2);
+    Home thePets(2);
 
-    int n=a.getNumber();
-    function_put(a.Pet_Array,n);
-    areFriends(a.Pet_Array,n);
-    ShowMatrix_Name_and_Age(a.Pet_Array,n);
-    SortMatrix(a.Pet_Array,n);
-    ShowMatrix_Name_and_Age(a.Pet_Array,n);
+    int n=thePets.getNumber();
+    function_put(thePets.petsArray,n);
+    areFriends(thePets.petsArray,n);
+    showMatrixNameAndAge(thePets.petsArray,n);
+    sortMatrixFromSmallToBig(thePets.petsArray,n);
+    showMatrixNameAndAge(thePets.petsArray,n);
     return 0;
 }
