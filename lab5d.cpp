@@ -3,8 +3,6 @@ using namespace std;
 #include "lab5d.h"
 
 
-
-//beginning
 int main()
 {
     Home thePets(2);
